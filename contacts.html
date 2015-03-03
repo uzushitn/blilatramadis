@@ -235,8 +235,11 @@
                                 <h3>Contacts</h3>
                                 
                                 <div class="footer-contacts">
-                                    
-                                     
+                                    <div class="fc-row">
+                                        <span class="fa fa-phone"></span>
+                                        <strong>Phone</strong><br>
+                                        0021620973738
+                                    </div>
                                     <div class="fc-row">
                                         <span class="fa fa-envelope"></span>
                                         <strong>Coinbender</strong><br>
@@ -304,11 +307,11 @@
         
         <script type="text/javascript">
             
-            var mapCords = new google.maps.LatLng(33.7931605, 9.5607653);
-            var mapOptions = {zoom: 5,center: mapCords, mapTypeId: google.maps.MapTypeId.ROADMAP}    
+            var mapCords = new google.maps.LatLng(37.751117, -122.423095);
+            var mapOptions = {zoom: 14,center: mapCords, mapTypeId: google.maps.MapTypeId.ROADMAP}    
             var map = new google.maps.Map(document.getElementById("google-map"), mapOptions);
 
-            var cords = new google.maps.LatLng(33.7931605, 9.5607653);
+            var cords = new google.maps.LatLng(37.751117, -122.423095);
             var marker = new google.maps.Marker({position: cords, 
                                                  map: map, 
                                                  title: "Marker 1",
